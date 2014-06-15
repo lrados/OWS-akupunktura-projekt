@@ -1,0 +1,217 @@
+@-webkit-viewport{ width: device-width; }
+@-moz-viewport{ width: device-width; }
+@-ms-viewport{ width: device-width; }
+@-o-viewport{ width: device-width; }
+@viewport{ width: device-width; }
+
+
+@font-face{
+  font-family: Bonzai;
+  src: url(fonts/bonzai.ttf);
+}
+
+@font-face{
+  font-family: Kreon;
+  src: url(fonts/Kreon/Kreon-Regular.ttf);
+}
+
+@font-face{
+  font-family: Ubuntu;
+  src: url(fonts/Ubuntu.ttf);
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Ubuntu;
+}
+
+body {
+ padding-top:50px;
+ background-color: #F0F3F1;
+}
+
+#masthead { 
+ min-height:250px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+a:focus{
+  outline: none;
+}
+
+.jumbotron{
+  background-color: #fff;
+}
+
+.jumbotron img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+    color: #397142;
+    text-decoration: none;
+}
+
+h1, h2, h4{
+  color: #c9804b;
+}
+
+h3{
+  color: #397142;
+}
+
+hr{
+  display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0;
+}
+
+.jumbotron b{
+  color:#555;
+  margin-top:10px;
+  padding-top: 30px;
+  display:block;
+  font-size:48px;
+  letter-spacing:2px;
+  line-height:36px;
+  font-family:Bonzai;
+}
+
+.navbar-default .navbar-brand{
+    color: #fff;
+    background-color: #c9804b;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: #fff;
+    background-color: #c9804b;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #397142;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active{
+    color: #fff;
+    background-color: #95bd82;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #95bd82;
+}
+
+#poruka{
+  width:65%;
+  border: 1px solid #CCC;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition:width 0.3s ease-in-out;
+  -moz-transition:width 0.3s ease-in-out;
+  -o-transition:width 0.3s ease-in-out;
+  -ms-transition:width 0.3s ease-in-out;
+}
+
+#poruka:focus  {
+  width: 80%;
+  border: 1px solid #CCC;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition:width 0.5s ease-in-out;
+  -moz-transition:width 0.5s ease-in-out;
+  -o-transition:width 0.5s ease-in-out;
+  -ms-transition:width 0.3s ease-in-out;
+}
+
+#ime{
+  width:65%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition:width 0.3s ease-in-out;
+  -moz-transition:width 0.3s ease-in-out;
+  -o-transition:width 0.3s ease-in-out;
+  -ms-transition:width 0.3s ease-in-out;
+}
+
+#ime:focus  {
+  width:100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition:width 0.5s ease-in-out;
+  -moz-transition:width 0.5s ease-in-out;
+  -o-transition:width 0.5s ease-in-out;
+  -ms-transition:width 0.3s ease-in-out;
+}
+
+#email{
+  width:65%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition:width 0.3s ease-in-out;
+  -moz-transition:width 0.3s ease-in-out;
+  -o-transition:width 0.3s ease-in-out;
+  -ms-transition:width 0.3s ease-in-out;
+}
+
+#email:focus  {
+  width:100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition:width 0.5s ease-in-out;
+  -moz-transition:width 0.5s ease-in-out;
+  -o-transition:width 0.5s ease-in-out;
+  -ms-transition:width 0.3s ease-in-out;
+}
